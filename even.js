@@ -10,4 +10,4 @@ function even(arr) {
 }
 
 let arr = [56,89,4,5,22,10];
-console.log(even(arr));
+console.log(even(arr));  //OUTPUT :3
