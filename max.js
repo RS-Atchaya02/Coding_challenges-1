@@ -12,4 +12,4 @@ function larger(arr)
     return max;
     }
     let arr=[5,6,7,8]
-    console.log(larger(arr));
+    console.log(larger(arr));  //OUTPUT : 8
