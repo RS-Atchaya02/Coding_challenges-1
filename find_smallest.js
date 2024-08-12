@@ -1,4 +1,4 @@
-ffunction minimum (arr)
+function minimum (arr)
 {
     let i;
     let min = arr[0 ];
