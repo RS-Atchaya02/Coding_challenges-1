@@ -10,4 +10,4 @@ function minimum (arr)
     return min
 }
 let arr = [6,78,45,20];
-console.log(minimum(arr));
+console.log(minimum(arr));  //OUTPUT : 6
