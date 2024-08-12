@@ -1,17 +1,13 @@
-function Small(arr) {
-    if (arr.length === 0) {
-        return undefined; 
+ffunction minimum (arr)
+{
+    let i;
+    let min = arr[0];
+    for (i = 1; i < arr.length; i++)
+    {
+        if(arr[i] < min)
+        min = arr[i]
     }
-    
-    let smallest = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < smallest) {
-            smallest = arr[i]; 
-        }
-    }
-    
-    return smallest;
+    return min
 }
-
-let arr = [10, 3, 5, 8, 22, 1];
-console.log(Small(arr)); // Output: 1
+let arr = [6,78,45,20];
+console.log(minimum(arr));
